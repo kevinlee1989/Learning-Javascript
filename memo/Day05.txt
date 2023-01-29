@@ -1,0 +1,23 @@
+day05
+
+import
+
+- 프로젝트 파일을 이클립스에 불러오기 
+- 우클릭 > import > General > Existing Projects into Workspace > select archieve file 
+- 이때 workspace에 같은 이름의 프로젝트 파일이 있으면 불가능 
+
+- 캐스팅( casting, 형변환)
+	- 타입을 다른 타입으로 바꿔주는 문법
+	- (자료형) 값
+		- ex) (int) 3.10 > 3 
+	- 문자열은 메소드를 통해 바꿔줘야한다.
+	Integer.parseInt() : String to int
+	Integer.toString() : int to String 
+	Double.parseDouble() : String to double
+	Double.toString() : double to String 
+	...
+- 자동형변환
+	- 연산 결과를 활용한다.
+	- 값 + "" > 문자열 자동변환
+
+- 자동 줄바꿈
